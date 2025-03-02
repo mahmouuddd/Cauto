@@ -13,7 +13,7 @@ Given(`I navigate to the annonces page`, () => {
 });
 
 Given(`I see the list of annonces`, () => {
-    cy.get(annonceElem.annonce1).should('be.visible').should('contain','Smartphone')
+    cy.get(annonceElem.annonce1).should('be.visible').should('contain','Paris')
 });
 
 Then(`I should see the details of the annonce`, () => {

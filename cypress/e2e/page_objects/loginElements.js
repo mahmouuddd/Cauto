@@ -4,7 +4,7 @@ const loginelements = {
    email: '#exampleInputEmail',
    password: '#exampleInputPassword',
    sumbit: '.btn-user',
-   alert: '.user > :nth-child(2) > .invalid-feedback',   
+   alert: 'div[class="input-group"] div[class="invalid-feedback"]',   
    menuMonCompte: '#collasible-nav-dropdown',      
 
 };

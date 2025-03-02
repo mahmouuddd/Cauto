@@ -24,7 +24,7 @@ When(`I enter invalid credentials`, () => {
 });
 
 Then(`I should see an error message`, () => {
-    cy.get(loginelements.alert).should('contain', 'Mot de passe incorrect.').should('be.visible')
+    cy.get(loginelements.alert).should('contain', 'Veuillez saisir un mot de passe valide').should('be.visible')
     
 });
 
